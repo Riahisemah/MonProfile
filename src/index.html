@@ -1,0 +1,614 @@
+<!--
+  Bonjour!
+  -
+  Simplefolio est un template de portfolio propre et réactif pour les développeurs!
+  Créé par Jacobo Martinez.
+  -
+  Dépôt Github : https://github.com/cobiwave/simplefolio/
+  Lisez-moi : https://github.com/cobiwave/simplefolio/README.md
+  -
+  Pour les affaires & demandes, contactez-moi -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="fr" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Todo: mettez ici le titre de votre site -->
+    <title>Riahi Semah | Développeur</title>
+    <!-- Todo: ajoutez des mots-clés de codage ci-dessous - ex : (javascript, votrepseudo, etc) -->
+    <meta name="keywords" content="[pseudo], [nom], compétence" />
+    <!-- Todo: améliorez votre SEO en ajoutant une petite description de vous -->
+    <meta name="description" content="[Votre nom ici] | Développeur" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- Todo: supprimez le script ci-dessous une fois votre portfolio terminé -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Todo: lisez les suivants HTML Todos pour créer votre superbe site web de portfolio -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Section Héro **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Bonjour, je m'appelle <span class="text-color-main">Riahi Semah</span>
+          <br />
+          Je suis Développeur.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >En savoir plus</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /FIN Section Héro -->
+
+    <!-- **** Section À propos **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">À propos de moi</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Image de profil"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profil.png"
+                alt="Image de profil"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                Je m'appelle Riahi Semah, diplômé en Licence en Technologie
+                Informatique, spécialité Développement des Systèmes
+                d'Informations. Passionné par la technologie et son impact, j'ai
+                acquis une solide base de connaissances dans des domaines clés
+                tels que la programmation, les bases de données et le
+                développement web. J'ai travaillé sur plusieurs projets
+                pratiques, à la fois individuellement et en équipe, ce qui m'a
+                permis d'améliorer mes compétences en développement logiciel et
+                en résolution de problèmes. Je suis constamment à l'affût des
+                dernières technologies et prêt à relever de nouveaux défis dans
+                le domaine.
+              </p>
+
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/resume.pdf"
+                >
+                  Voir le CV
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /FIN Section À propos -->
+
+    <!-- **** Section Projets **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projets</h2>
+
+          <!-- Remarque : chaque .row est un projet -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">MyCat</h3>
+                <div>
+                  <p class="mb-4">
+                    Projet MyCat est une initiative passionnante qui s'adresse
+                    aux passionnés de chats, offrant une plateforme complète
+                    pour adopter et acheter des chats de haute qualité. Propulsé
+                    par des technologies avancées, le projet utilise Symfony 6
+                    pour le backend, Twig pour le templating du frontend, et
+                    Bootstrap pour un design frontend visuellement attrayant et
+                    réactif. Le système de base de données choisi est
+                    PostgreSQL, garantissant une gestion des données robuste.
+                  </p>
+                </div>
+
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Riahisemah/prjMyCat"
+                >
+                  Code source
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Image du projet"
+                      class="img-fluid"
+                      src="assets/MyCaat.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /FIN Projet -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">
+                  Gestion des Étudiants
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    Le Projet de Gestion des Étudiants est une plateforme
+                    complète conçue pour rationaliser les tâches
+                    d'administration des étudiants. En tirant parti des
+                    technologies Angular et Bootstrap, le projet offre une
+                    interface conviviale et réactive pour une gestion efficace
+                    des informations des étudiants. Oracle est utilisé comme
+                    système de base de données robuste, garantissant un stockage
+                    et une récupération des données fiables.
+                  </p>
+                </div>
+
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Riahisemah/etudiant_CURDOFFLIN-"
+                >
+                  Code source
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Image du projet"
+                      class="img-fluid"
+                      src="assets/gestionstudint.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Remarque : chaque .row est un projet -->
+
+          <!-- /FIN Projet -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Challenge Comercial</h3>
+                <div>
+                  <p class="mb-4">
+                    Ce projet innovant vise à améliorer la performance des
+                    équipes commerciales en leur proposant des défis et des
+                    objectifs motivants. L'application web "Challenge
+                    Commercial" utilise React pour le frontend, Ant Design et
+                    Tailwind CSS pour la mise en page et le design, et
+                    Express.js pour le backend. PostgreSQL est utilisé comme
+                    système de base de données pour gérer efficacement les
+                    informations sur les utilisateurs et les défis. Le projet a
+                    été mené en suivant la méthodologie SCRUM, avec des sprints
+                    réguliers pour assurer une livraison continue et une
+                    amélioration constante. Un cahier des charges détaillé a été
+                    appliqué pour garantir que toutes les exigences du client
+                    soient respectées. L'application permet aux utilisateurs de
+                    créer, suivre et relever des défis commerciaux, tout en
+                    offrant une interface utilisateur intuitive et réactive.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://drive.google.com/file/d/1fkAx6Yq67Bzw5wubsz90X1nTbOq3URe6/view?usp=drive_link"
+                >
+                  Voire Vedio
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Image du projet"
+                      class="img-fluid"
+                      src="assets/challangeCom.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Remarque : chaque .row est un projet -->
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">AI chatbot</h3>
+                <div>
+                  <p class="mb-4">
+                    Ce projet amusant permet de créer un chatbot personnalisé
+                    capable d'interagir avec les utilisateurs de manière
+                    intelligente. Le backend du chatbot est développé en Python
+                    et utilise Flask pour gérer les requêtes HTTP. Le frontend
+                    est développé avec JavaScript pour assurer une intégration
+                    fluide et interactive sur le site web. Le chatbot utilise un
+                    dataset texte pour traiter et générer des réponses, offrant
+                    une expérience utilisateur améliorée grâce à des réponses
+                    rapides et pertinentes. Ce projet met en valeur les
+                    compétences en traitement du langage naturel et en
+                    intégration web.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://drive.google.com/file/d/1Pj5mW527D-nHzFBZ8YWkakqKmRgvA8Np/view?usp=drive_link"
+                >
+                  Voire Vedio
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Riahisemah/ChatBot"
+                >
+                  Code source
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Image du projet"
+                      class="img-fluid"
+                      src="assets/chatBot.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Remarque : chaque .row est un projet -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">
+                  E-commerce "TelecomTechStore"
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    Ce projet de site e-commerce a pour objectif de transformer
+                    l'expérience d'achat en ligne en offrant une interface
+                    utilisateur fluide et réactive. L'application utilise React
+                    pour le frontend, Express.js pour le backend, et MongoDB
+                    comme système de base de données. Le site permet aux
+                    utilisateurs de parcourir et acheter des produits en toute
+                    simplicité. L'intégration de PayPal pour les paiements
+                    sécurisés assure une transaction facile et fiable. Les
+                    fonctionnalités principales incluent la gestion des
+                    produits, des utilisateurs, et des paniers d'achat, ainsi
+                    qu'une recherche de produits avancée et des recommandations
+                    personnalisées. Ce projet met en avant des compétences en
+                    développement full stack et en intégration de services de
+                    paiement tiers, garantissant une expérience utilisateur
+                    optimale.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://drive.google.com/file/d/1mP3chmgfTIS98Ra0r8-H0KLmrygwRl_k/view?usp=drive_link"
+                >
+                  Voire Vedio
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Code source
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://github.com/Riahisemah/TelecomTechStore"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Image du projet"
+                      class="img-fluid"
+                      src="assets/tuntechStor.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Communes France</h3>
+                <div>
+                  <p class="mb-4">
+                    Commun France est un projet novateur qui vise à transformer
+                    l'accès aux informations et aux détails de localisation en
+                    se basant uniquement sur des noms. Notre plateforme de
+                    pointe utilise des technologies et des frameworks avancés,
+                    notamment Express js pour le backend robuste et Vue.js pour
+                    le frontend réactif, avec MongoDB comme système de base de
+                    données. Avec Commun France, les utilisateurs peuvent
+                    facilement rechercher des informations et des détails de
+                    localisation en saisissant simplement un nom dans notre
+                    interface intuitive. En exploitant des services sophistiqués
+                    basés sur la localisation, notre plateforme garantit que les
+                    utilisateurs reçoivent les résultats les plus pertinents et
+                    les plus à jour adaptés à leurs requêtes. Commun France se
+                    positionne comme un outil essentiel pour la récupération
+                    efficace d'informations et de données géographiques
+                    précises, répondant ainsi aux besoins variés aussi bien
+                    professionnels que personnels.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Image du projet"
+                      class="img-fluid"
+                      src="assets/communFr.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Portoflio</h3>
+                <div>
+                  <p class="mb-4">
+                    Mon portfolio personnel est une vitrine de mes compétences
+                    et réalisations en développement web. Réalisé entièrement
+                    avec HTML, CSS et JavaScript, il présente un design moderne
+                    et intuitif qui reflète mon style et mes capacités
+                    créatives. Chaque section de mon portfolio est conçue pour
+                    mettre en valeur mes projets clés, mes compétences
+                    techniques, et mon parcours professionnel. Le design
+                    responsive assure une expérience utilisateur optimale sur
+                    tous les appareils, permettant aux visiteurs de naviguer
+                    facilement à travers mes réalisations et de découvrir mon
+                    expertise dans divers domaines du développement web. En
+                    utilisant des animations subtiles et des effets visuels
+                    soigneusement intégrés, mon portfolio capte l'attention tout
+                    en mettant en avant mes réalisations de manière claire et
+                    attrayante. Il représente non seulement mon travail, mais
+                    aussi mon engagement envers l'excellence dans le domaine du
+                    développement web.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://riahisemah.github.io/portflio/"
+                >
+                  Voir en direct
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Code source
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://github.com/Riahisemah/portflio"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Image du projet"
+                      class="img-fluid"
+                      src="assets/poroflio.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /FIN Projet -->
+        </div>
+      </div>
+    </section>
+    <!-- /FIN Section Projets -->
+
+    <!-- **** Section Contact **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">
+            Email : riahisamh817@gmail.com <br />Phone : +216 26653690
+          </p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:riahisamh817@gmail.com"
+            >Appel à l'action</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /FIN Section Contact -->
+
+    <!-- **** Section Pied de page **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            rel="noreferrer"
+            href="https://www.facebook.com/samh.ryahi?mibextid=qi2Omg&rdid=ykCxj70LaFmyVT1y&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FUDSED2HcggkceWV1%2F%3Fmibextid%3Dqi2Omg"
+            target="_blank"
+          >
+            <i class="fa fa-facebook fa-inverse"></i>
+          </a>
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/riahi-samh-05223b221/"
+            target="_blank"
+          >
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a
+            rel="noreferrer"
+            href="https://github.com/Riahisemah"
+            target="_blank"
+          >
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- Remarque : si vous voulez me donner du crédit, ce sera énorme pour moi! sinon, mettez vos données dessus -->
+        <p class="footer__text">
+          © 2024 -
+          <a
+            rel="noreferrer"
+            href="https://github.com/Riahisemah"
+            target="_blank"
+            >Riahi Semah</a
+          >
+        </p>
+
+        <!-- À FAIRE : supprimez tout ce paragraphe une fois votre portfolio terminé -->
+        <p class="mt-3 pt-3">
+          <a
+            rel="noreferrer"
+            class="github-button"
+            href="https://github.com/Riahisemah/simplefolio/fork"
+            data-icon="octicon-repo-forked"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Fork ntkme/github-buttons on GitHub"
+            >Fork</a
+          >
+          <a
+            rel="noreferrer"
+            class="github-button"
+            href="https://github.com/Riahisemah/simplefolio"
+            data-icon="octicon-star"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Star Riahisemah/simplefolio on GitHub"
+            >Star</a
+          >
+        </p>
+      </div>
+    </footer>
+    <!-- /FIN Section Pied de page -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
