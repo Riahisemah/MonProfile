@@ -6,9 +6,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": " build",
-    "predeploy": "parcel build",
-    "deploy": "gh-pages -d build"
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
