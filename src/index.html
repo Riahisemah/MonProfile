@@ -79,17 +79,15 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                Je m'appelle Riahi Semah, diplômé en Licence en Technologie
-                Informatique, spécialité Développement des Systèmes
-                d'Informations. Passionné par la technologie et son impact, j'ai
-                acquis une solide base de connaissances dans des domaines clés
-                tels que la programmation, les bases de données et le
-                développement web. J'ai travaillé sur plusieurs projets
-                pratiques, à la fois individuellement et en équipe, ce qui m'a
-                permis d'améliorer mes compétences en développement logiciel et
-                en résolution de problèmes. Je suis constamment à l'affût des
-                dernières technologies et prêt à relever de nouveaux défis dans
-                le domaine.
+                Je m'appelle Semah RIAHI, diplômé en Licence en Technologies de l’Information,
+                 spécialité Développement des Systèmes d’Informations,
+                  et actuellement en mastère professionnel en Ingénierie de développement informatique,
+                   robotique et intelligence artificielle. Passionné par les technologies innovantes et le développement logiciel, 
+                   j’ai acquis une solide expérience à travers divers projets full stack en React, 
+                   Express.js, Python (Scrapy, Selenium), ainsi qu’en gestion de bases de données SQL et NoSQL. 
+                   Mes missions en entreprise m’ont permis de développer des solutions web complètes, d’automatiser des processus de collecte de données, 
+                   et de collaborer efficacement en équipe dans des environnements agiles. Curieux,
+                    rigoureux et toujours motivé par les défis techniques, je suis en veille constante sur les nouvelles technologies pour continuer à progresser dans le domaine.
               </p>
 
               <span class="d-flex mt-3">
@@ -99,7 +97,7 @@
                   class="cta-btn cta-btn--resume"
                   href="assets/resume.pdf"
                 >
-                  Voir le CV
+                  Voire   le CV
                 </a>
               </span>
             </div>
@@ -114,6 +112,48 @@
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projets</h2>
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Reconnaissance de langue des signes
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    Le projet de reconnaissance de langue des signes pour les personnes sourdes et muettes utilise plusieurs technologies avancées pour atteindre ses objectifs. Le système s'appuie sur MediaPipe, une bibliothèque de vision par ordinateur, pour détecter et interpréter les gestes des mains en temps réel. Le front-end de l'application est développé avec React, offrant une interface utilisateur intuitive et réactive. Pour le stockage des données et l'authentification, le projet utilise Firebase, une plateforme cloud de Google. L'entraînement du modèle de machine learning est réalisé avec TensorFlow, tandis que Google Colab facilite le développement collaboratif. Enfin, l'application est hébergée en ligne sous forme de PWA (Progressive Web App), accessible via un navigateur web, ce qui la rend compatible avec divers appareils, y compris les mobiles. Ces technologies combinées permettent une solution performante et accessible pour briser les barrières de communication.                </div>
+
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Riahisemah/sign-detection-reeltime"
+                >
+                  Code source
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Image du projet"
+                      class="img-fluid"
+                      src="assets/slr.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
 
           <!-- Remarque : chaque .row est un projet -->
           <div class="row">
@@ -164,6 +204,63 @@
             </div>
           </div>
 
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">gestion des emplois du temps</h3>
+                <div>
+                  <p class="mb-4">
+                    Le projet de **gestion des emplois du temps universitaires** est développé en **Java** avec l'IDE **Eclipse**, en utilisant **Swing** pour l'interface graphique et **MySQL** comme système de gestion de base de données. L'application permet de planifier les cours, attribuer les salles, gérer les enseignants et les étudiants, et générer des emplois du temps automatiquement.  
+
+                    L'architecture repose sur une approche **MVC (Modèle-Vue-Contrôleur)** :  
+                    - **Modèle** : Gère la logique métier et l'accès aux données via **JDBC** pour interagir avec MySQL.  
+                    - **Vue** : Construite avec **Swing** (JFrame, JTable, etc.) pour une interface conviviale.  
+                    - **Contrôleur** : Traite les interactions utilisateur et synchronise modèle et vue.  
+                    
+                    Les fonctionnalités incluent :  
+                    ✔ Création et modification des emplois du temps.  
+                    ✔ Gestion des contraintes (disponibilité des profs, capacité des salles).  
+                    ✔ Export des plannings en PDF/Excel.  
+                    ✔ Système d'authentification sécurisé.  
+                    
+                    Ce projet offre une solution **offline**, performante et facile à maintenir, adaptée aux besoins des établissements universitaires.  </p>
+                </div>
+
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Riahisemah/gestion_emplois_de_temps"
+                >
+                  Code source
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Image du projet"
+                      class="img-fluid"
+                      src="assets/gestion_emploi.jpeg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+
+
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
@@ -189,7 +286,7 @@
                   class="cta-btn cta-btn--hero"
                   href="https://semahbank.netlify.app/"
                 >
-                  Voir en direct
+                  Voire   en direct
                 </a>
                 <a
                   rel="noreferrer"
@@ -307,7 +404,7 @@
                   class="cta-btn cta-btn--hero"
                   href="https://drive.google.com/file/d/1fkAx6Yq67Bzw5wubsz90X1nTbOq3URe6/view?usp=sharing"
                 >
-                  Voire Vedio
+                  Voire  Vedio
                 </a>
               </div>
             </div>
@@ -359,7 +456,7 @@
                   class="cta-btn cta-btn--hero"
                   href="https://drive.google.com/file/d/1Pj5mW527D-nHzFBZ8YWkakqKmRgvA8Np/view?usp=sharing"
                 >
-                  Voire Vedio
+                  Voire  Vedio
                 </a>
                 <a
                   rel="noreferrer"
@@ -424,7 +521,7 @@
                   class="cta-btn cta-btn--hero"
                   href="https://drive.google.com/file/d/1mP3chmgfTIS98Ra0r8-H0KLmrygwRl_k/view?usp=sharing"
                 >
-                  Voire Vedio
+                  Voire  Vedio
                 </a>
                 <a
                   rel="noreferrer"
@@ -488,7 +585,26 @@
                 </div>
               </div>
             </div>
-
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Image du projet"
+                      class="img-fluid"
+                      src="assets/communFr.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
                 <a rel="noreferrer" href="#!" target="_blank">
@@ -540,7 +656,7 @@
                   class="cta-btn cta-btn--hero"
                   href="https://drive.google.com/file/d/1--7iycyzKY9TZzHOF0KHZSmCWBa7luS9/view?usp=sharing"
                 >
-                  Voir en direct
+                  Voire   en direct
                 </a>
                 <a
                   rel="noreferrer"
@@ -607,7 +723,7 @@
                   class="cta-btn cta-btn--hero"
                   href="https://riahisemah.github.io/portflio/"
                 >
-                  Voir en direct
+                  Voire en direct
                 </a>
                 <a
                   rel="noreferrer"
@@ -685,7 +801,7 @@
           </a>
           <a
             rel="noreferrer"
-            href="https://www.linkedin.com/in/riahi-samh-05223b221/"
+            href="https://www.linkedin.com/in/riahi-semah-a0a75b337/"
             target="_blank"
           >
             <i class="fa fa-linkedin fa-inverse"></i>
